@@ -1,0 +1,10 @@
+// Demonstration questions only. Verify all content before treating it as official exam material.
+const QUESTIONS = [
+  {id:1, exam:"SSC", subject:"Reasoning", year:"Practice", topic:"Number series", question:"Choose the next number: 2, 4, 8, 16, __.", options:["18","24","32","36"], answer:2, explanation:"Each number is multiplied by 2, so the next number is 32."},
+  {id:2, exam:"SSC", subject:"Mathematics", year:"Practice", topic:"Percentages", question:"What is 25% of 240?", options:["40","50","60","80"], answer:2, explanation:"25% is one-fourth. 240 ÷ 4 = 60."},
+  {id:3, exam:"Railway", subject:"English", year:"Practice", topic:"Grammar", question:"Choose the grammatically correct sentence.", options:["She go to school every day.","She goes to school every day.","She going to school every day.","She gone to school every day."], answer:1, explanation:"With 'she' in the simple present, the verb takes -s: goes."},
+  {id:4, exam:"Banking", subject:"Mathematics", year:"Practice", topic:"Arithmetic", question:"A book costs ₹80 after a 20% discount. What was its original price?", options:["₹90","₹96","₹100","₹120"], answer:2, explanation:"₹80 is 80% of the original price. Original price = 80 ÷ 0.8 = ₹100."},
+  {id:5, exam:"UPSC / State", subject:"General Knowledge", year:"Practice", topic:"Indian Constitution", question:"Who is the constitutional head of the Union of India?", options:["Prime Minister","President","Chief Justice of India","Speaker of Lok Sabha"], answer:1, explanation:"The President is the constitutional head of the Union; the Council of Ministers, headed by the Prime Minister, aids and advises the President."},
+  {id:6, exam:"SSC", subject:"Reasoning", year:"Practice", topic:"Odd one out", question:"Which one is different from the others?", options:["Triangle","Square","Circle","Rectangle"], answer:2, explanation:"A circle has no straight sides; the other shapes have straight sides."},
+  {id:7, exam:"Railway", subject:"Mathematics", year:"Practice", topic:"Average", question:"What is the average of 10, 20 and 30?", options:["15","20","25","30"], answer:1, explanation:"Average = (10 + 20 + 30) ÷ 3 = 20."}
+];

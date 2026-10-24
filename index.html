@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Free government exam practice, mock tests, and question bank." />
+  <title>ExamPath India — Government Exam Preparation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">E</span><span>ExamPath <b>India</b></span></a>
+    <nav><a href="#exams">Exams</a><a href="#practice">Mock tests</a><a href="#question-bank">Question bank</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">YOUR PREPARATION, YOUR PACE</p>
+        <h1>Prepare smarter.<br><span>Go further.</span></h1>
+        <p class="hero-text">Practice for government exams with sample questions, timed mock tests, and instant results — all in one place.</p>
+        <a class="primary-btn" href="#practice">Start practising <span>→</span></a>
+        <p class="small-note">Free starter version · No account needed</p>
+      </div>
+      <div class="hero-card">
+        <div class="card-top"><span class="live-dot"></span> YOUR PRACTICE HUB <span class="dots">•••</span></div>
+        <div class="hero-stat"><div><span class="muted">Practice areas</span><h2>5 categories</h2></div><div class="stat-icon">✦</div></div>
+        <div class="mini-progress"><span style="width:72%"></span></div>
+        <div class="card-bottom"><span>Start with a short quiz</span><span class="arrow-circle">↗</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="exams">
+      <div class="section-heading"><div><p class="eyebrow">FIND YOUR PATH</p><h2>Explore exam categories</h2></div><p>Choose a category to see practice questions.</p></div>
+      <div class="exam-grid" id="exam-grid"></div>
+    </section>
+
+    <section class="practice-layout section" id="practice">
+      <div class="section-heading"><div><p class="eyebrow">PRACTICE MODE</p><h2>Take a quick mock test</h2></div><span class="pill">Sample quiz</span></div>
+      <div class="test-panel">
+        <div class="test-sidebar">
+          <p class="eyebrow">YOUR TEST</p>
+          <h3>General Aptitude</h3>
+          <p class="muted">A short starter quiz to try the test interface.</p>
+          <div class="test-meta"><span>◷</span><div><b>5 minutes</b><small>Suggested time</small></div></div>
+          <div class="test-meta"><span>◎</span><div><b>5 questions</b><small>Multiple choice</small></div></div>
+          <button id="start-btn" class="primary-btn full">Start test <span>→</span></button>
+          <p class="tiny">Sample questions only. Not an official paper.</p>
+        </div>
+        <div class="quiz-area" id="quiz-area">
+          <div class="quiz-welcome"><div class="big-icon">✎</div><h3>Ready when you are</h3><p>Start the quiz to answer questions, track your time, and see your result instantly.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="question-bank">
+      <div class="section-heading"><div><p class="eyebrow">BUILD YOUR SKILLS</p><h2>Question bank</h2></div><p>Filter the sample questions by topic.</p></div>
+      <div class="bank-tools">
+        <input id="search-input" type="search" placeholder="Search questions or topics…" aria-label="Search questions" />
+        <select id="subject-filter" aria-label="Filter by subject"><option value="all">All subjects</option><option>Reasoning</option><option>Mathematics</option><option>English</option><option>General Knowledge</option></select>
+      </div>
+      <div id="question-list" class="question-list"></div>
+      <p class="disclaimer">Content note: This starter site contains demonstration questions, not verified previous-year questions. Add official paper links and verified answers before sharing it as an exam resource.</p>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#"><span class="brand-mark">E</span><span>ExamPath <b>India</b></span></a><p>Built to make practice more accessible.</p><p class="tiny">Independent learning project · Not affiliated with any examination authority.</p></footer>
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
